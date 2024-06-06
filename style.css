@@ -1,0 +1,75 @@
+/* Base styles */
+body {
+    background: black;
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.clock {
+    color: #17D4FE;    
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    border: 5px solid #17D4FE;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.date {
+    color: #17D4FE;
+    font-size: 30px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+    color: #17D4FE;
+    font-family: Orbitron;
+    margin-bottom: 20px;
+}
+
+.message {
+    text-align: center;
+    font-size: 30px;
+    color: #17D4FE;
+    font-family: Orbitron;
+    margin-top: 40px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .clock {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .date {
+        font-size: 20px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .message {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
